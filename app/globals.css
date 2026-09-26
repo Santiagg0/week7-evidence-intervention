@@ -101,6 +101,7 @@ button {
   display: grid;
   grid-template-columns: 1.6fr 0.9fr;
   gap: 20px;
+  align-items: start;
 }
 
 .stack {
@@ -149,7 +150,7 @@ button {
 }
 
 .map-panel {
-  min-height: 520px;
+  min-height: 0;
 }
 
 .fleet-map {
